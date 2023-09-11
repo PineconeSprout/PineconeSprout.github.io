@@ -1,0 +1,26 @@
+html{
+    background-color: rgb(167, 228, 167);
+}
+.main{
+    display:flexbox;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-gap:10px 10px;
+}
+.navigationBar{
+    display:grid;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+    background-color: aquamarine;
+    
+}
+nav{
+    
+}
+nav ul{
+    list-style: none;
+    padding:5% 10%;
+}
+li{
+    display:inline;
+}

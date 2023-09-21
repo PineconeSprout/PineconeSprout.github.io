@@ -29,6 +29,28 @@ html{
     -webkit-filter: grayscale(1) invert(1);
     filter: grayscale(1) invert(1);
 }
+@keyframes float {
+	0% {
+		
+		transform: translatey(0px);
+	}
+	50% {
+		
+		transform: translatey(-20px);
+	}
+	100% {
+		
+		transform: translatey(0px);
+	}
+}
+#me{
+  filter:none;
+  width:18rem;
+  filter: drop-shadow(7px 7px 7px #1a1d1b);
+  -webkit-filter: drop-shadow(7px 7px 7px #1c2721);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
 a, .button{
     display:flex;
     align-items: center;
